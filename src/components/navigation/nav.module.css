@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300');
+
+.nav {
+    background: #222831; 
+    max-width: 20%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #fff;
+    padding: 10px;
+    
+    font-family: 'Comfortaa', sans-serif;
+    
+}
+
+
+.nav ul {
+    list-style: none;
+}
+.nav li {
+    padding-top: 8px;
+}
+ 
+
+.nav div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+    
+}
+.nav div img {
+    height: 25px;
+    width: 25px;
+   
+}
