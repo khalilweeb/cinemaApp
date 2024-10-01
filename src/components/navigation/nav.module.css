@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300');
-
+.main {
+    display: flex;
+}
 .nav {
     background: #222831; 
     max-width: 15%;
@@ -21,6 +23,11 @@
     
 }
 
+.link {
+    color: white;
+    text-decoration: none;
+}
+
 
 .nav .div {
     display: flex;
@@ -34,6 +41,7 @@
     
     background-color: #ff5722;
     transition: all ease 0.5s;
+    border-radius:  0 10px 10px 0 ;
   
     
 }

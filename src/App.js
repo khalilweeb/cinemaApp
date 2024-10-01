@@ -1,12 +1,12 @@
-import Nav from "./components/navigation/nav";
-import Movies from "./components/movies/Movies";
-function App() {
-  return (
-    <div className="App">
-      <Nav/>
-      <Movies/>
-    </div>
-  );
-}
+// import Nav from "./components/navigation/nav";
 
-export default App;
+// function App() {
+//   return (
+//     <div className="App">
+//       <Nav/>
+      
+//     </div>
+//   );
+// }
+
+// export default App;

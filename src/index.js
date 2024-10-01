@@ -1,13 +1,54 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
+import Nav from './components/navigation/nav';
 import reportWebVitals from './reportWebVitals';
+import Home from './components/Home/home';
+import Watchlater from './components/Watchlater/Watchlater';
+import Liked from './components/Liked/Liked';
+import List from './components/Mylist/Mylist';
+
+
+import { createBrowserRouter , RouterProvider } from 'react-router-dom';
+
+const router = createBrowserRouter([
+
+{
+  path: '/',
+  element: <Nav/>,
+  children : [
+    {
+      path: "home",
+      element: <Home />
+
+    },
+    {
+      path: "liked",
+      element: <Liked />
+
+    },
+    {
+      path: "list",
+      element: <List />
+
+    },  
+    {
+      path: "watchLater",
+      element: <Watchlater />
+
+    }
+  ]
+}
+
+
+]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 
