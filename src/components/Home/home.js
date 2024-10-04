@@ -1,13 +1,19 @@
-import { Outlet } from "react-router-dom";
+
 import cls from './home.module.css';
-const Home = () => {
+import cinemaimg from '../../assets/cinema.jpg';
+const Home = () => { 
 
 return (
-<div>
-<div style={{color: 'black'}}> this is the Home page !</div> 
-<Outlet />
-      
-</div>
+
+    <>
+    <div className={cls.container}>
+        <header>
+            <img src={cinemaimg} alt='cinema'/>
+
+        </header>
+
+        </div>
+    </>
 
 
 

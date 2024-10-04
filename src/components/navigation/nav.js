@@ -32,7 +32,21 @@ const nav = () => {
 
                   
             </nav>
+
+            <div>
+                <div > 
+                    <ul>
+                        <li>pupulair</li>
+                        <li>new movies</li>
+                        <li> up comming movies</li>
+                    </ul>
+                        <input ></input>
+                        <button>hello</button>
+
+                </div>
             <Outlet/>
+            </div>
+            
         
         </div>
 
