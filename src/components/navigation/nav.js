@@ -33,21 +33,27 @@ const nav = () => {
                   
             </nav>
 
-            <div>
-                <div > 
+            <div >
+                <div className={cls.bar}> 
+                    <div>
                     <ul>
-                        <li>pupulair</li>
-                        <li>new movies</li>
-                        <li> up comming movies</li>
+                        <li>Populair</li>
+                        <li>New movies</li>
+                        <li>Upcomming</li>
                     </ul>
-                        <input ></input>
-                        <button>hello</button>
+                    </div>
+                    
+                    <div className={cls.search}>
+                    <input ></input>
+                    <button type="submit">srearch</button>
+                    </div>
+                     
 
                 </div>
-            <Outlet/>
+           
             </div>
             
-        
+            <Outlet/>
         </div>
 
     )

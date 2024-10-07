@@ -8,7 +8,7 @@ return (
     <>
     <div className={cls.container}>
         <header>
-            <img src={cinemaimg} alt='cinema'/>
+          
 
         </header>
 
