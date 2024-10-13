@@ -1,6 +1,5 @@
 
 import cls from './home.module.css';
-import cinemaimg from '../../assets/cinema.jpg';
 const Home = () => { 
 
 return (
@@ -8,8 +7,7 @@ return (
     <>
     <div className={cls.container}>
         <header>
-          
-
+             <h1>hello from home</h1>
         </header>
 
         </div>

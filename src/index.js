@@ -8,6 +8,7 @@ import Home from './components/Home/home';
 import Watchlater from './components/Watchlater/Watchlater';
 import Liked from './components/Liked/Liked';
 import List from './components/Mylist/Mylist';
+import Popular from './components/Populair/popular';
 
 
 import { createBrowserRouter , RouterProvider } from 'react-router-dom';
@@ -36,6 +37,11 @@ const router = createBrowserRouter([
     {
       path: "watchLater",
       element: <Watchlater />
+
+    },
+    {
+      path: "popular",
+      element: <Popular />
 
     }
   ]

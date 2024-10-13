@@ -1,0 +1,8 @@
+.div {
+    background-color: black;
+    position: relative;
+    width: 60%;
+    left: 10%;
+    margin-top: 100px;
+    color: aliceblue;
+}

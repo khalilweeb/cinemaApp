@@ -13,6 +13,7 @@ const nav = () => {
 
 
     return (
+        <>
         <div className={cls.main}>
             <nav className={cls.nav}>
                     <div className={cls.logo}>
@@ -37,7 +38,7 @@ const nav = () => {
                 <div className={cls.bar}> 
                     <div>
                     <ul>
-                        <li>Populair</li>
+                      <Link to={'popular'}> <li>Populair</li> </Link>  
                         <li>New movies</li>
                         <li>Upcomming</li>
                     </ul>
@@ -55,7 +56,8 @@ const nav = () => {
             
             <Outlet/>
         </div>
-
+ 
+   </>
     )
 
 }
