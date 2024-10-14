@@ -2,6 +2,8 @@
 .main {
     display: flex;
     font-family: 'Comfortaa', sans-serif;
+   
+    
 
 }
 .nav {
@@ -12,6 +14,7 @@
     flex-direction: column;
     justify-content: space-between;
     color: #fff;
+    
     
     
 }
@@ -91,6 +94,7 @@
     color: #fff;
     opacity: 0.8;
     transition: all ease 0.5s;
+   
 
 
 }
@@ -100,6 +104,10 @@
 
     
 
+}
+
+.bar ul link {
+    text-decoration: none;
 }
 
 .bar .search {
