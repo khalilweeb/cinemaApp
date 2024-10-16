@@ -11,10 +11,12 @@ const MovieCard = (props) => {
                         <img  src={'https://image.tmdb.org/t/p/w500' + props.imgUrl} alt='movie poster'/>
                     </div>
                     <div className={cls.mainInfo}>
-                        <h2>Inception</h2>
-                        <p> EN / 7.7 / 2003-05-21 </p>
-
+                        <h2>{props.title}</h2>
+                        <p> {props.lang} / {props.rate} / {props.date} </p>
+                        <div className={cls.piv}>
                         <p className={cls.descp}> {props.descp}</p>
+                        </div>
+                        
 
 
 

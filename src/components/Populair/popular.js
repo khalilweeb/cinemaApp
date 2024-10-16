@@ -26,7 +26,8 @@ return (
     <div className={cls.div}>
      
              { movies ? movies.results.map((el) => {
-                return  <MovieCard imgUrl = {el.poster_path} descp={el.overview}/>
+                return  <MovieCard imgUrl = {el.poster_path} descp={el.overview}  title={el.original_title} lang={el.original_language} 
+                date={el.release_date}  rate={el.vote_average.toFixed(1)} />
 })   : 'loading.....'}
           
       

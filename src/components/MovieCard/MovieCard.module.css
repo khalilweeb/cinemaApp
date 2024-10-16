@@ -18,3 +18,13 @@
     font-size: 14px;
 
 }
+
+
+
+.card p {
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.3; 
+    width: 90%;
+    margin-left: 10px;
+}
