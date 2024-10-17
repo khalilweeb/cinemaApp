@@ -1,4 +1,6 @@
 import cls from './MovieCard.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 const MovieCard = (props) => {
 
@@ -17,7 +19,11 @@ const MovieCard = (props) => {
                         <p className={cls.descp}> {props.descp}</p>
                         </div>
                         
-
+                       <div className={cls.divIcons}>
+                                 <FontAwesomeIcon icon={faHeart} />
+                                 <FontAwesomeIcon icon="fa-solid fa-bars-staggered"  className={cls.icn}/>
+                                
+                       </div>
 
 
                     </div>
