@@ -1,21 +1,40 @@
 .card {
-    width: 23%;
-    height: 20%;
-    background-color: black;
+    width: 22%;
+    height: auto;
+    background-color: #222831;
     margin: 5px;
     border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.mainInfo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imgContainer {
+    height: 200px;
+    width: 100%;
 }
 
 .card img {
-    width: 100%;
-    height:250px;
-    object-fit: cover;
-    border-radius: 20px;
+    display: block;
+   width: 100%;
+   height: 200px;
+    border-radius: 20px 20px 0px 0;
+    
+   
 }
 
 .card .descp {
 
     font-size: 14px;
+    flex-grow: 5;
 
 }
 
@@ -27,9 +46,29 @@
     line-height: 1.3; 
     width: 90%;
     margin-left: 10px;
+
 }
 
 .icn {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
+}
+
+.title {
+   
+   margin: 10px;
+}
+
+.infos {
+    margin-bottom: 10px;
+}
+
+.divIcons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    
 }
